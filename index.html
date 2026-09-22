@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Академ — памятка для чайников</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#e63946">
+<style>
+  :root{
+    --bg:#0b1f18; --panel:#123027; --line:#234a3c; --text:#eaf3ee; --muted:#9db4aa;
+    --accent:#2ecc71; --danger:#e63946; --coral:#ff8f9c;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+  body{min-height:100vh;padding:24px 16px 60px;}
+  .wrap{max-width:520px;margin:0 auto;}
+  h1{font-size:28px;margin:0 0 4px;}
+  .subtitle{color:var(--muted);font-size:14px;margin-bottom:24px;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px;}
+  label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px;margin-top:12px;}
+  label:first-of-type{margin-top:0;}
+  input[type=text],input[type=date],input[type=time]{
+    width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);
+    background:#0e261e;color:var(--text);font-size:15px;
+  }
+  button{
+    width:100%;margin-top:16px;padding:13px;border:none;border-radius:10px;
+    background:var(--danger);color:#fff;font-size:16px;font-weight:600;cursor:pointer;
+  }
+  button:active{opacity:0.85;}
+  .task{
+    display:flex;justify-content:space-between;align-items:center;
+    background:#0e261e;border:1px solid var(--line);border-radius:12px;
+    padding:12px 14px;margin-bottom:10px;
+  }
+  .task.soon{border-color:var(--danger);}
+  .task-info b{display:block;font-size:15px;}
+  .task-info span{font-size:13px;color:var(--muted);}
+  .task-time{font-size:13px;color:var(--accent);font-weight:600;white-space:nowrap;margin-left:10px;}
+  .task.soon .task-time{color:var(--danger);}
+  .del{background:none;border:none;color:var(--muted);font-size:20px;padding:0 0 0 12px;width:auto;margin:0;cursor:pointer;}
+  .empty{color:var(--muted);font-size:14px;text-align:center;padding:12px 0;}
+  .status{font-size:12px;color:var(--muted);text-align:center;margin-top:10px;}
+
+  /* Оверлей тревоги */
+  #alarmOverlay{
+    position:fixed;inset:0;background:var(--danger);color:#fff;
+    display:none;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:24px;z-index:999;
+  }
+  #alarmOverlay.show{display:flex;}
+  #alarmOverlay .bell{font-size:64px;margin-bottom:8px;animation:shake 0.4s infinite;}
+  #alarmOverlay h2{font-size:40px;margin:8px 0;line-height:1.1;}
+  #alarmOverlay p{font-size:18px;opacity:0.9;margin:4px 0 24px;}
+  #alarmOverlay button{max-width:260px;background:#fff;color:var(--danger);}
+  @keyframes shake{0%,100%{transform:rotate(0);}25%{transform:rotate(-12deg);}75%{transform:rotate(12deg);}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Академ</h1>
+  <div class="subtitle">памятка для чайников · работает офлайн, без регистрации</div>
+
+  <div class="card">
+    <label>Название</label>
+    <input type="text" id="taskName" placeholder="Сдать курсовую">
+    <label>Дата</label>
+    <input type="date" id="taskDate">
+    <label>Время</label>
+    <input type="time" id="taskTime">
+    <button id="addBtn">Добавить</button>
+  </div>
+
+  <div class="card">
+    <div id="taskList"></div>
+    <div class="status" id="status">Проверка времени каждые 30 секунд.</div>
+  </div>
+</div>
+
+<div id="alarmOverlay">
+  <div class="bell">🔔</div>
+  <h2 id="alarmMsg">ИДИ НА ПАРУ!</h2>
+  <p id="alarmSub"></p>
+  <button id="alarmOk">Понял, выключить</button>
+</div>
+
+<audio id="alarmSound" preload="auto">
+  <source src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=" type="audio/wav">
+</audio>
+
+<script>
+(function(){
+  const STORAGE_KEY = "akadem_tasks_v1";
+  const CHECK_INTERVAL_MS = 30 * 1000;      // проверка каждые 30 секунд
+  const THRESHOLDS = [10, 5, 1];            // минуты до события, когда срабатывает сигнал
+
+  const nameInput = document.getElementById("taskName");
+  const dateInput = document.getElementById("taskDate");
+  const timeInput = document.getElementById("taskTime");
+  const addBtn = document.getElementById("addBtn");
+  const taskListEl = document.getElementById("taskList");
+  const statusEl = document.getElementById("status");
+  const overlay = document.getElementById("alarmOverlay");
+  const alarmSub = document.getElementById("alarmSub");
+  const alarmOk = document.getElementById("alarmOk");
+  const sound = document.getElementById("alarmSound");
+
+  function loadTasks(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    }catch(e){
+      console.error("Не удалось прочитать localStorage", e);
+      return [];
+    }
+  }
+
+  function saveTasks(tasks){
+    try{
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
+    }catch(e){
+      console.error("Не удалось сохранить в localStorage", e);
+    }
+  }
+
+  let tasks = loadTasks();
+
+  function fireAlarm(task, minutesLeft){
+    alarmSub.textContent = task.name + " — через " + minutesLeft + " мин.";
+    overlay.classList.add("show");
+    try{ sound.currentTime = 0; sound.play().catch(()=>{}); }catch(e){}
+    if(navigator.vibrate) navigator.vibrate([300,100,300,100,300]);
+  }
+
+  alarmOk.addEventListener("click", function(){
+    overlay.classList.remove("show");
+    sound.pause();
+  });
+
+  function minutesUntil(task){
+    const target = new Date(task.date + "T" + task.time + ":00");
+    const diffMs = target.getTime() - Date.now();
+    return diffMs / 60000;
+  }
+
+  function checkTasks(){
+    const now = Date.now();
+    tasks.forEach(task=>{
+      const mins = minutesUntil(task);
+      THRESHOLDS.forEach(th=>{
+        // срабатывает один раз, когда осталось <= th минут и ещё не отмечено
+        if(mins <= th && mins > th - 0.6 && !task.firedAt) {
+          // защита от повторного срабатывания того же порога
+        }
+        if(mins <= th && !(task.fired || []).includes(th) && mins > -1){
+          task.fired = task.fired || [];
+          task.fired.push(th);
+          fireAlarm(task, th);
+        }
+      });
+    });
+    saveTasks(tasks);
+    render();
+    statusEl.textContent = "Последняя проверка: " + new Date().toLocaleTimeString("ru-RU");
+  }
+
+  function fmtDate(d,t){
+    const dt = new Date(d + "T" + t + ":00");
+    return dt.toLocaleDateString("ru-RU",{day:"2-digit",month:"2-digit"}) + " · " +
+           dt.toLocaleTimeString("ru-RU",{hour:"2-digit",minute:"2-digit"});
+  }
+
+  function render(){
+    taskListEl.innerHTML = "";
+    if(tasks.length === 0){
+      taskListEl.innerHTML = '<div class="empty">Пока нет задач. Добавьте первую выше.</div>';
+      return;
+    }
+    // сортировка по ближайшему времени
+    const sorted = tasks.slice().sort((a,b)=>minutesUntil(a) - minutesUntil(b));
+    sorted.forEach(task=>{
+      const mins = minutesUntil(task);
+      const soon = mins <= 60 && mins > -1;
+      const el = document.createElement("div");
+      el.className = "task" + (soon ? " soon" : "");
+      let timeLabel;
+      if(mins < -1) timeLabel = "прошло";
+      else if(mins < 1) timeLabel = "сейчас";
+      else if(mins < 60) timeLabel = Math.round(mins) + " мин";
+      else timeLabel = Math.round(mins/60) + " ч";
+      el.innerHTML =
+        '<div class="task-info"><b></b><span></span></div>' +
+        '<div class="task-time"></div>' +
+        '<button class="del" title="Удалить">×</button>';
+      el.querySelector("b").textContent = task.name;
+      el.querySelector("span").textContent = fmtDate(task.date, task.time);
+      el.querySelector(".task-time").textContent = timeLabel;
+      el.querySelector(".del").addEventListener("click", function(){
+        tasks = tasks.filter(t => t.id !== task.id);
+        saveTasks(tasks);
+        render();
+      });
+      taskListEl.appendChild(el);
+    });
+  }
+
+  addBtn.addEventListener("click", function(){
+    const name = nameInput.value.trim();
+    const date = dateInput.value;
+    const time = timeInput.value;
+    if(!name || !date || !time){
+      alert("Заполните название, дату и время.");
+      return;
+    }
+    tasks.push({
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2),
+      name: name, date: date, time: time, fired: []
+    });
+    saveTasks(tasks);
+    nameInput.value = "";
+    dateInput.value = "";
+    timeInput.value = "";
+    render();
+  });
+
+  render();
+  checkTasks();
+  setInterval(checkTasks, CHECK_INTERVAL_MS);
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("sw.js").catch(function (e) {
+        console.error("Service worker не зарегистрирован", e);
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

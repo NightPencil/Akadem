@@ -1,15 +1,6 @@
 {
- "version": 1791582023,
- "updatedAt": "2026-10-09T21:40:23.159Z",
- "ops": [
-  {
-   "id": "cf3122aa0170f1ff10c632cc8302858b",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "coins",
-   "amount": 1000,
-   "skin": "",
-   "t": 1791582022
-  }
- ],
+ "version": 1791582043,
+ "updatedAt": "2026-10-09T21:40:43.378Z",
+ "ops": [],
  "codes": []
 }

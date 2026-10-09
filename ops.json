@@ -1,22 +1,14 @@
 {
- "version": 1791574842,
- "updatedAt": "2026-10-09T19:40:42.397Z",
+ "version": 1791575257,
+ "updatedAt": "2026-10-09T19:47:37.754Z",
  "ops": [
   {
-   "id": "f4ba28bbc58504b5be22acc2d6aa545b",
+   "id": "74378fae5f1c43c99677f44a5968c8a5",
    "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "coins",
-   "amount": 100000,
-   "skin": "",
-   "t": 1791574802
-  },
-  {
-   "id": "2e7df23b66bdc8e11292ca0c1a4b4fa7",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "coins",
-   "amount": 10000,
-   "skin": "",
-   "t": 1791574842
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "gamer",
+   "t": 1791575257
   }
  ],
  "codes": []

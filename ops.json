@@ -1,15 +1,6 @@
 {
- "version": 1791575257,
- "updatedAt": "2026-10-09T19:47:37.754Z",
- "ops": [
-  {
-   "id": "74378fae5f1c43c99677f44a5968c8a5",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "gamer",
-   "t": 1791575257
-  }
- ],
+ "version": 1791581807,
+ "updatedAt": "2026-10-09T21:36:47.263Z",
+ "ops": [],
  "codes": []
 }

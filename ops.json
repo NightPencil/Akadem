@@ -1,14 +1,14 @@
 {
- "version": 1791623733,
- "updatedAt": "2026-10-10T09:15:33.714Z",
+ "version": 1791623749,
+ "updatedAt": "2026-10-10T09:15:49.522Z",
  "ops": [
   {
-   "id": "3a7a63ee0316d30bd52054c275d2657c",
+   "id": "5f1676d9493a2bb2c4c67ce843f74e8d",
    "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
    "type": "coins",
-   "amount": 100,
+   "amount": -100,
    "skin": "",
-   "t": 1791623733
+   "t": 1791623749
   }
  ],
  "codes": []

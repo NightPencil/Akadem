@@ -1,14 +1,14 @@
 {
- "version": 1791623749,
- "updatedAt": "2026-10-10T09:15:49.522Z",
+ "version": 1791623773,
+ "updatedAt": "2026-10-10T09:16:14.057Z",
  "ops": [
   {
-   "id": "5f1676d9493a2bb2c4c67ce843f74e8d",
+   "id": "e01ecc44cf2bf35fde3189d017887dc5",
    "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "coins",
-   "amount": -100,
-   "skin": "",
-   "t": 1791623749
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "ic_neon",
+   "t": 1791623773
   }
  ],
  "codes": []

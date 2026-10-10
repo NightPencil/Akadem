@@ -1,14 +1,14 @@
 {
- "version": 1791623870,
- "updatedAt": "2026-10-10T09:17:50.380Z",
+ "version": 1791624244,
+ "updatedAt": "2026-10-10T09:24:04.295Z",
  "ops": [
   {
-   "id": "d352fad0051e5506d3c5664ecba0ed7c",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "th_sunset",
-   "t": 1791623870
+   "id": "9dea741c0bbe234e03af6ac6f934d0db",
+   "u": "e0a5ab4596966c2eb57bcf1e3d21f273",
+   "type": "coins",
+   "amount": 100,
+   "skin": "",
+   "t": 1791624244
   }
  ],
  "codes": []

@@ -1,14 +1,14 @@
 {
- "version": 1791625271,
- "updatedAt": "2026-10-10T09:41:11.166Z",
+ "version": 1791625596,
+ "updatedAt": "2026-10-10T09:46:36.188Z",
  "ops": [
   {
-   "id": "3821aedff0b18ba6e195ea57425403b0",
+   "id": "8f5a7606e6cdafbc674bb6f5dbe5987d",
    "u": "1819f20200477fe40698e82ddddf3eac",
-   "type": "skin_take",
+   "type": "skin_give",
    "amount": 0,
-   "skin": "granny",
-   "t": 1791625271
+   "skin": "secret",
+   "t": 1791625596
   }
  ],
  "codes": []

@@ -1,14 +1,14 @@
 {
- "version": 1791626138,
- "updatedAt": "2026-10-10T09:55:38.089Z",
+ "version": 1791626155,
+ "updatedAt": "2026-10-10T09:55:55.441Z",
  "ops": [
   {
-   "id": "0796684909a7db4d2a234ed3050f5202",
+   "id": "8ec43f9a66ce9a53585d8715117b65a3",
    "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "skin_take",
+   "type": "skin_give",
    "amount": 0,
    "skin": "th_daisy",
-   "t": 1791626137
+   "t": 1791626155
   }
  ],
  "codes": []

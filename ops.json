@@ -1,22 +1,14 @@
 {
- "version": 1791626268,
- "updatedAt": "2026-10-10T09:57:48.473Z",
+ "version": 1791628759,
+ "updatedAt": "2026-10-10T10:39:19.548Z",
  "ops": [
   {
-   "id": "ca2d863d25f369829716d836469d2364",
-   "u": "1819f20200477fe40698e82ddddf3eac",
-   "type": "skin_take",
-   "amount": 0,
-   "skin": "secret",
-   "t": 1791626260
-  },
-  {
-   "id": "7df7f505e776a93a92c26c36830510cb",
-   "u": "1819f20200477fe40698e82ddddf3eac",
+   "id": "491ee4a4fdbff7c869833b2067e140f3",
+   "u": "74db5562abfdc0957f2732631f05e0ee",
    "type": "coins",
-   "amount": 1000,
+   "amount": 67,
    "skin": "",
-   "t": 1791626268
+   "t": 1791628758
   }
  ],
  "codes": []

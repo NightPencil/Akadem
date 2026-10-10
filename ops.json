@@ -1,14 +1,14 @@
 {
- "version": 1791623773,
- "updatedAt": "2026-10-10T09:16:14.057Z",
+ "version": 1791623835,
+ "updatedAt": "2026-10-10T09:17:15.584Z",
  "ops": [
   {
-   "id": "e01ecc44cf2bf35fde3189d017887dc5",
+   "id": "b8be6596d094e8f0a04b5a74dc1df5f8",
    "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "skin_give",
+   "type": "skin_take",
    "amount": 0,
-   "skin": "ic_neon",
-   "t": 1791623773
+   "skin": "th_sunset",
+   "t": 1791623835
   }
  ],
  "codes": []

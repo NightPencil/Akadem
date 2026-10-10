@@ -1,14 +1,14 @@
 {
- "version": 1791624281,
- "updatedAt": "2026-10-10T09:24:41.896Z",
+ "version": 1791624462,
+ "updatedAt": "2026-10-10T09:27:42.999Z",
  "ops": [
   {
-   "id": "b1801dd0e83c9d1f4cb5b25f95d362d4",
+   "id": "f8308a9d9ca4691e96d53735839f8a80",
    "u": "e0a5ab4596966c2eb57bcf1e3d21f273",
-   "type": "coins",
-   "amount": 2000,
-   "skin": "",
-   "t": 1791624281
+   "type": "skin_take",
+   "amount": 0,
+   "skin": "th_honey",
+   "t": 1791624462
   }
  ],
  "codes": []

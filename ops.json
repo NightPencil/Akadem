@@ -1,14 +1,14 @@
 {
- "version": 1791648437,
- "updatedAt": "2026-10-10T16:07:17.981Z",
+ "version": 1791648488,
+ "updatedAt": "2026-10-10T16:08:08.485Z",
  "ops": [
   {
-   "id": "2725f39578fd2c4ef943c7ab80fc6544",
+   "id": "e1666a5a1c0c27b92bad224c757f6fad",
    "u": "1819f20200477fe40698e82ddddf3eac",
-   "type": "pet_level",
-   "amount": 4,
+   "type": "skin_take",
+   "amount": 0,
    "skin": "gamer",
-   "t": 1791648437
+   "t": 1791648488
   }
  ],
  "codes": []

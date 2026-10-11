@@ -1,14 +1,14 @@
 {
- "version": 1791664380,
- "updatedAt": "2026-10-10T20:33:00.909Z",
+ "version": 1791718220,
+ "updatedAt": "2026-10-11T11:30:20.139Z",
  "ops": [
   {
-   "id": "b6018ef80b14468e9d581c2e0e38c465",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "pet_level",
-   "amount": 4,
-   "skin": "secret",
-   "t": 1791664380
+   "id": "3c7110f23a1eec91c78152724900de67",
+   "u": "1819f20200477fe40698e82ddddf3eac",
+   "type": "coins",
+   "amount": 50,
+   "skin": "",
+   "t": 1791718219
   }
  ],
  "codes": []

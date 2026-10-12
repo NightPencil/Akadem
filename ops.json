@@ -1,14 +1,14 @@
 {
- "version": 1791781856,
- "updatedAt": "2026-10-12T05:10:56.674Z",
+ "version": 1791788245,
+ "updatedAt": "2026-10-12T06:57:25.283Z",
  "ops": [
   {
-   "id": "31cea9a0cc42973d2f5d4e0dcae17b7f",
-   "u": "74db5562abfdc0957f2732631f05e0ee",
-   "type": "pet_level",
-   "amount": 4,
-   "skin": "gamer",
-   "t": 1791781856
+   "id": "b9b7caf44de201e1113f7afefc29ee37",
+   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
+   "type": "coins",
+   "amount": 100,
+   "skin": "",
+   "t": 1791788245
   }
  ],
  "codes": []

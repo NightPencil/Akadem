@@ -1,14 +1,14 @@
 {
- "version": 1791788245,
- "updatedAt": "2026-10-12T06:57:25.283Z",
+ "version": 1791788305,
+ "updatedAt": "2026-10-12T06:58:25.670Z",
  "ops": [
   {
-   "id": "b9b7caf44de201e1113f7afefc29ee37",
+   "id": "084ed9b14006aaf0ecf9fed781567937",
    "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "coins",
-   "amount": 100,
-   "skin": "",
-   "t": 1791788245
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "th_daisy",
+   "t": 1791788305
   }
  ],
  "codes": []

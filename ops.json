@@ -1,14 +1,14 @@
 {
- "version": 1791884107,
- "updatedAt": "2026-10-13T09:35:07.426Z",
+ "version": 1791884975,
+ "updatedAt": "2026-10-13T09:49:35.118Z",
  "ops": [
   {
-   "id": "78f186c1e708a17c4057a5c55bdad259",
+   "id": "5410d18ae4eb4f757646844ed3e84d65",
    "u": "f99fa2f1602058f07ffda4e81f82b9c7",
    "type": "pet_level",
-   "amount": 4,
+   "amount": 1,
    "skin": "granny",
-   "t": 1791884107
+   "t": 1791884974
   }
  ],
  "codes": [

@@ -1,62 +1,14 @@
 {
- "version": 1791885096,
- "updatedAt": "2026-10-13T09:51:36.751Z",
+ "version": 1791885137,
+ "updatedAt": "2026-10-13T09:52:17.652Z",
  "ops": [
   {
-   "id": "5410d18ae4eb4f757646844ed3e84d65",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "pet_level",
-   "amount": 1,
-   "skin": "granny",
-   "t": 1791884974
-  },
-  {
-   "id": "f0c373cbdf5e92af0b84d37b7f99fd8f",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "coins",
-   "amount": 100,
-   "skin": "",
-   "t": 1791884991
-  },
-  {
-   "id": "86bba96ffe43c87114002894d8be81e1",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "coins",
-   "amount": 1000000,
-   "skin": "",
-   "t": 1791885004
-  },
-  {
-   "id": "2e44f0c5af67a412a65971f53437fcb6",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "pet_level",
-   "amount": 1,
-   "skin": "",
-   "t": 1791885027
-  },
-  {
-   "id": "3c764b6aeb802bd812a304599c6c37c8",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "pet_level",
-   "amount": 1,
-   "skin": "",
-   "t": 1791885036
-  },
-  {
-   "id": "18f4261bde1042afdd49588d9e7d87d0",
+   "id": "fbd24538a149af611f19c5f4bf98d4cd",
    "u": "f99fa2f1602058f07ffda4e81f82b9c7",
    "type": "skin_give",
    "amount": 0,
-   "skin": "ic_sunset",
-   "t": 1791885093
-  },
-  {
-   "id": "7d097a2ffdbf1e4d33fa094a832a4497",
-   "u": "f99fa2f1602058f07ffda4e81f82b9c7",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "ic_neon",
-   "t": 1791885096
+   "skin": "th_neon",
+   "t": 1791885137
   }
  ],
  "codes": [

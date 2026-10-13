@@ -1,23 +1,14 @@
 {
- "version": 1791870506,
- "updatedAt": "2026-10-13T05:48:26.974Z",
- "ops": [
+ "version": 1791870579,
+ "updatedAt": "2026-10-13T05:49:39.838Z",
+ "ops": [],
+ "codes": [
   {
-   "id": "3d156586a6c67d983259463905250fd9",
-   "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
-   "type": "coins",
-   "amount": -100,
-   "skin": "",
-   "t": 1791870495
-  },
-  {
-   "id": "6c0090060a2621e38cda1f97014ad665",
-   "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
-   "type": "coins",
-   "amount": -61,
-   "skin": "",
-   "t": 1791870506
+   "h": "3c4b9d74ff47e0b28b60789d2611510e0ef70111add5fec358ea84a627f1077c",
+   "id": "3c4b9d74ff47e0b28b60789d2611510e",
+   "type": "pet_level",
+   "amount": 3,
+   "skin": ""
   }
- ],
- "codes": []
+ ]
 }

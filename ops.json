@@ -1,15 +1,6 @@
 {
- "version": 1791952894,
- "updatedAt": "2026-10-14T04:41:34.355Z",
- "ops": [
-  {
-   "id": "c92b45b8c21b02c09042bb291a4fe889",
-   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
-   "type": "pet_level",
-   "amount": 4,
-   "skin": "",
-   "t": 1791952893
-  }
- ],
+ "version": 1791952909,
+ "updatedAt": "2026-10-14T04:41:49.270Z",
+ "ops": [],
  "codes": []
 }

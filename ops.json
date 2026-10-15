@@ -1,6 +1,6 @@
 {
- "version": 1792047510,
- "updatedAt": "2026-10-15T06:58:30.828Z",
+ "version": 1792047585,
+ "updatedAt": "2026-10-15T06:59:45.221Z",
  "ops": [
   {
    "id": "029d49d6b949b012e9f1c64cf693a25f",
@@ -19,21 +19,13 @@
    "t": 1792047347
   },
   {
-   "id": "d928c75a03b4a187d5b6e4954e065509",
-   "u": "74db5562abfdc0957f2732631f05e0ee",
+   "id": "9e0f92bb4e4947b4f64a39c9cd71c0e3",
+   "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
    "type": "pet_level",
    "amount": 3,
    "skin": "",
-   "t": 1792047509
+   "t": 1792047584
   }
  ],
- "codes": [
-  {
-   "h": "58a0cc2e9e4596984d546e500c7b9a356b17d73da8e1427f065a43c84aace62d",
-   "id": "58a0cc2e9e4596984d546e500c7b9a35",
-   "type": "pet_level",
-   "amount": 3,
-   "skin": ""
-  }
- ]
+ "codes": []
 }

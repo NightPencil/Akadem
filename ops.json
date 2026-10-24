@@ -1,6 +1,6 @@
 {
- "version": 1792831664,
- "updatedAt": "2026-10-24T08:47:44.407Z",
+ "version": 1792831666,
+ "updatedAt": "2026-10-24T08:47:47.287Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -129,6 +129,14 @@
    "amount": 0,
    "skin": "ic_neon",
    "t": 1792831663
+  },
+  {
+   "id": "b3302a3d56243a55679e7e5cfccbe07e",
+   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "th_neon",
+   "t": 1792831666
   }
  ],
  "codes": [],

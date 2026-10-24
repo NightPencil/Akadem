@@ -1,6 +1,6 @@
 {
- "version": 1792822763,
- "updatedAt": "2026-10-24T06:19:24.206Z",
+ "version": 1792822778,
+ "updatedAt": "2026-10-24T06:19:39.049Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -91,12 +91,12 @@
    "t": 1792768284
   },
   {
-   "id": "617b0c0e1ba578543bc615aff7304995",
+   "id": "6264dc1257cda39a779acedd94878044",
    "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "skin_give",
-   "amount": 0,
+   "type": "pet_level",
+   "amount": 3,
    "skin": "secret",
-   "t": 1792822763
+   "t": 1792822777
   }
  ],
  "codes": [],

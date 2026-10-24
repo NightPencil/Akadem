@@ -1,6 +1,6 @@
 {
- "version": 1792822778,
- "updatedAt": "2026-10-24T06:19:39.049Z",
+ "version": 1792822846,
+ "updatedAt": "2026-10-24T06:20:46.377Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -89,16 +89,10 @@
    "amount": 67,
    "skin": "",
    "t": 1792768284
-  },
-  {
-   "id": "6264dc1257cda39a779acedd94878044",
-   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "pet_level",
-   "amount": 3,
-   "skin": "secret",
-   "t": 1792822777
   }
  ],
  "codes": [],
- "blocked": []
+ "blocked": [
+  "eb0ea7ad2efbb0ca3e635302514b663f"
+ ]
 }

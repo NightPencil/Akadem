@@ -1,6 +1,6 @@
 {
- "version": 1792831666,
- "updatedAt": "2026-10-24T08:47:47.287Z",
+ "version": 1793163088,
+ "updatedAt": "2026-10-28T04:51:29.170Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -89,56 +89,10 @@
    "amount": 67,
    "skin": "",
    "t": 1792768284
-  },
-  {
-   "id": "5c6d1a6e4755b512c523dbb4c7410f98",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "coins",
-   "amount": 1000000,
-   "skin": "",
-   "t": 1792831603
-  },
-  {
-   "id": "460bbf3bd515c7c0f769e3294aae99bc",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "granny",
-   "t": 1792831618
-  },
-  {
-   "id": "e6731067222ac321248e94f584f75553",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "th_daisy",
-   "t": 1792831639
-  },
-  {
-   "id": "125400c2de63e49aa37a86b6b0deea68",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "ic_sunset",
-   "t": 1792831642
-  },
-  {
-   "id": "7c853ec78693a9a17a88b96aa3990a6c",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "ic_neon",
-   "t": 1792831663
-  },
-  {
-   "id": "b3302a3d56243a55679e7e5cfccbe07e",
-   "u": "9db850f9f31d2f39e68d5996e2ed7f1d",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "th_neon",
-   "t": 1792831666
   }
  ],
  "codes": [],
- "blocked": []
+ "blocked": [
+  "d079920c304c888647f5c623e3e4af65"
+ ]
 }

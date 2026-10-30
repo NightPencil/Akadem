@@ -1,6 +1,6 @@
 {
- "version": 1793347282,
- "updatedAt": "2026-10-30T08:01:23.099Z",
+ "version": 1793347443,
+ "updatedAt": "2026-10-30T08:04:03.348Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -89,24 +89,16 @@
    "amount": 67,
    "skin": "",
    "t": 1792768284
-  },
-  {
-   "id": "aba5eac3bf9c56b96d0fd3f6b73d25cf",
-   "u": "7d762cbf6d2697fd2b95047591fba2b9",
-   "type": "coins",
-   "amount": -1000,
-   "skin": "",
-   "t": 1793347269
-  },
-  {
-   "id": "dabecda541a4262d27db70ab155d8825",
-   "u": "7d762cbf6d2697fd2b95047591fba2b9",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "secret",
-   "t": 1793347282
   }
  ],
- "codes": [],
+ "codes": [
+  {
+   "h": "9ec191f6dfa1ae616421c541f4f24974eceb945061a446c8e03acdacef55f197",
+   "id": "9ec191f6dfa1ae616421c541f4f24974",
+   "type": "coins",
+   "amount": 67,
+   "skin": ""
+  }
+ ],
  "blocked": []
 }

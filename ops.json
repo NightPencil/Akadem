@@ -1,6 +1,6 @@
 {
- "version": 1793348302,
- "updatedAt": "2026-10-30T08:18:23.204Z",
+ "version": 1793350892,
+ "updatedAt": "2026-10-30T09:01:33.237Z",
  "ops": [
   {
    "id": "8764853932cc656bf67ae739e1b91e17",
@@ -89,14 +89,6 @@
    "amount": 67,
    "skin": "",
    "t": 1792768284
-  },
-  {
-   "id": "c99ddf6030c6e0abd0b45b8f66f8afad",
-   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "coins",
-   "amount": 12345,
-   "skin": "",
-   "t": 1793348302
   }
  ],
  "codes": [],

@@ -1,14 +1,14 @@
 {
- "version": 1793598852,
- "updatedAt": "2026-11-02T05:54:12.444Z",
+ "version": 1793598919,
+ "updatedAt": "2026-11-02T05:55:19.600Z",
  "ops": [
   {
-   "id": "0cca88d78871cb6828e1123a900f15bd",
+   "id": "1bbffb6111fc5f2917fa504d938167eb",
    "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
-   "type": "pet_level",
-   "amount": 4,
-   "skin": "ice",
-   "t": 1793598851
+   "type": "coins",
+   "amount": -10000,
+   "skin": "",
+   "t": 1793598919
   }
  ],
  "codes": [],

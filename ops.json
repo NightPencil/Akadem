@@ -1,7 +1,17 @@
 {
- "version": 1793614648,
- "updatedAt": "2026-11-02T10:17:28.171Z",
- "ops": [],
+ "version": 1793623396,
+ "updatedAt": "2026-11-02T12:43:16.352Z",
+ "ops": [
+  {
+   "id": "5646167434bbbb6e6116e78ae6d52278",
+   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
+   "type": "coins",
+   "amount": 5,
+   "skin": "",
+   "t": 1793623395,
+   "by": "М"
+  }
+ ],
  "codes": [
   {
    "h": "3d4fc677fb59653008e568747e451be4edabdd08a916ae0f52de6cebcf74aa1b",

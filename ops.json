@@ -1,16 +1,7 @@
 {
- "version": 1793613180,
- "updatedAt": "2026-11-02T09:53:00.676Z",
- "ops": [
-  {
-   "id": "7386e1e4f4fcd13ca102b0594f45cb18",
-   "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
-   "type": "coins",
-   "amount": 100,
-   "skin": "",
-   "t": 1793613180
-  }
- ],
+ "version": 1793614648,
+ "updatedAt": "2026-11-02T10:17:28.171Z",
+ "ops": [],
  "codes": [
   {
    "h": "3d4fc677fb59653008e568747e451be4edabdd08a916ae0f52de6cebcf74aa1b",

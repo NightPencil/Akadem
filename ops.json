@@ -1,6 +1,6 @@
 {
- "version": 1793804653,
- "updatedAt": "2026-11-04T15:04:13.284Z",
+ "version": 1793804666,
+ "updatedAt": "2026-11-04T15:04:26.195Z",
  "ops": [
   {
    "id": "cafe0f17f03a929d625e1bee24c6e904",
@@ -12,6 +12,13 @@
   }
  ],
  "codes": [
+  {
+   "h": "7d428815f75837e74ae4486a816234c6154aabfc3fc3ea7d8772ee96a39e735e",
+   "id": "7d428815f75837e74ae4486a816234c6",
+   "type": "coins",
+   "amount": 999999,
+   "skin": ""
+  },
   {
    "h": "8c77c5c7415c363d12bd601bd30a4ffedd83ab9e2f83bb473c32c0784ab26f11",
    "id": "8c77c5c7415c363d12bd601bd30a4ffe",

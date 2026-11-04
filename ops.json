@@ -1,15 +1,22 @@
 {
- "version": 1793738522,
- "updatedAt": "2026-11-03T20:42:02.463Z",
+ "version": 1793783345,
+ "updatedAt": "2026-11-04T09:09:05.602Z",
  "ops": [
   {
-   "id": "6f92bc8e1208181d17000662d6779b05",
+   "id": "cafe0f17a990e95f8db52de2f059fa61",
    "u": "5d18ad3f682fa85dbcbb1cce6d21988e",
    "type": "coins",
-   "amount": 1000,
+   "amount": 45,
    "skin": "",
-   "t": 1793738521,
-   "by": "М"
+   "t": 1793769471
+  },
+  {
+   "id": "2fd5124f3f140246f396f63da0e1a337",
+   "u": "d079920c304c888647f5c623e3e4af65",
+   "type": "coins",
+   "amount": 1000000,
+   "skin": "",
+   "t": 1793783344
   }
  ],
  "codes": [

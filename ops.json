@@ -1,41 +1,14 @@
 {
- "version": 1793855494,
- "updatedAt": "2026-11-05T05:11:34.272Z",
+ "version": 1793856114,
+ "updatedAt": "2026-11-05T05:21:54.942Z",
  "ops": [
   {
-   "id": "d4de207ab648e81bc77076e322c0c67f",
-   "u": "1be563382a83acea6b7f114cd31a67fa",
+   "id": "6ea694ce4b92d7454fccad4495ff7839",
+   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
    "type": "coins",
-   "amount": -92566,
+   "amount": -363735,
    "skin": "",
-   "t": 1793855464,
-   "by": "Д"
-  },
-  {
-   "id": "26ce3f12cccf60336a048620ce621b9b",
-   "u": "1be563382a83acea6b7f114cd31a67fa",
-   "type": "coins",
-   "amount": -92566,
-   "skin": "",
-   "t": 1793855467,
-   "by": "Д"
-  },
-  {
-   "id": "6b851eb03285bbda2a6cba210b06f8a5",
-   "u": "1be563382a83acea6b7f114cd31a67fa",
-   "type": "coins",
-   "amount": -92566,
-   "skin": "",
-   "t": 1793855468,
-   "by": "Д"
-  },
-  {
-   "id": "0c40685b7019c7de563b00b1e042536b",
-   "u": "1be563382a83acea6b7f114cd31a67fa",
-   "type": "coins",
-   "amount": 92566,
-   "skin": "",
-   "t": 1793855494,
+   "t": 1793856114,
    "by": "Д"
   }
  ],

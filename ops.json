@@ -1,30 +1,15 @@
 {
- "version": 1793809141,
- "updatedAt": "2026-11-04T16:19:01.174Z",
+ "version": 1793855464,
+ "updatedAt": "2026-11-05T05:11:04.676Z",
  "ops": [
   {
-   "id": "cafe0f17f03a929d625e1bee24c6e904",
-   "u": "74db5562abfdc0957f2732631f05e0ee",
+   "id": "d4de207ab648e81bc77076e322c0c67f",
+   "u": "1be563382a83acea6b7f114cd31a67fa",
    "type": "coins",
-   "amount": 90,
+   "amount": -92566,
    "skin": "",
-   "t": 1793796147
-  },
-  {
-   "id": "6804be444b5f5f02eec6cc904a731f61",
-   "u": "d079920c304c888647f5c623e3e4af65",
-   "type": "coins",
-   "amount": -999999,
-   "skin": "",
-   "t": 1793809133
-  },
-  {
-   "id": "eb3b19f8a059f81b17305fb70cbd8154",
-   "u": "d079920c304c888647f5c623e3e4af65",
-   "type": "coins",
-   "amount": -999999,
-   "skin": "",
-   "t": 1793809140
+   "t": 1793855464,
+   "by": "Д"
   }
  ],
  "codes": [],

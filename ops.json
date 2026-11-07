@@ -1,17 +1,7 @@
 {
- "version": 1793856114,
- "updatedAt": "2026-11-05T05:21:54.942Z",
- "ops": [
-  {
-   "id": "6ea694ce4b92d7454fccad4495ff7839",
-   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "coins",
-   "amount": -363735,
-   "skin": "",
-   "t": 1793856114,
-   "by": "Д"
-  }
- ],
+ "version": 1794042179,
+ "updatedAt": "2026-11-07T09:02:59.398Z",
+ "ops": [],
  "codes": [],
  "blocked": []
 }

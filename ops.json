@@ -1,7 +1,16 @@
 {
- "version": 1794042202,
- "updatedAt": "2026-11-07T09:03:22.211Z",
- "ops": [],
+ "version": 1794405931,
+ "updatedAt": "2026-11-11T14:05:31.175Z",
+ "ops": [
+  {
+   "id": "cafe0f176be22b6ea8a1da95609a3577",
+   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "pf_f_drop",
+   "t": 1794404122
+  }
+ ],
  "codes": [],
  "blocked": []
 }

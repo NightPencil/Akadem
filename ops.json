@@ -1,14 +1,14 @@
 {
- "version": 1794406829,
- "updatedAt": "2026-11-11T14:20:29.518Z",
+ "version": 1794458275,
+ "updatedAt": "2026-11-12T04:37:55.289Z",
  "ops": [
   {
-   "id": "cafe0f176be22b6ea8a1da95609a3577",
-   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "skin_give",
-   "amount": 0,
-   "skin": "pf_f_drop",
-   "t": 1794404122
+   "id": "cafe0f17f3f5984ec06936f291ac82ea",
+   "u": "b2d8aa37b7b0c82f48c53fb74f242d91",
+   "type": "coins",
+   "amount": 90,
+   "skin": "",
+   "t": 1794456611
   }
  ],
  "codes": [],

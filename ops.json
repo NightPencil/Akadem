@@ -1,14 +1,14 @@
 {
- "version": 1794633450,
- "updatedAt": "2026-11-14T05:17:30.760Z",
+ "version": 1794633920,
+ "updatedAt": "2026-11-14T05:25:20.932Z",
  "ops": [
   {
-   "id": "eb404de9b11e798d0bf777eceb8d7862",
-   "u": "7d762cbf6d2697fd2b95047591fba2b9",
-   "type": "coins",
-   "amount": 43,
-   "skin": "",
-   "t": 1794633450,
+   "id": "7ef9c0e6daf7b29b85b72c807527db95",
+   "u": "74db5562abfdc0957f2732631f05e0ee",
+   "type": "pet_level",
+   "amount": 4,
+   "skin": "classic",
+   "t": 1794633920,
    "by": "Д"
   }
  ],

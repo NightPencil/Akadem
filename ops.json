@@ -1,16 +1,9 @@
 {
- "version": 1794633248,
- "updatedAt": "2026-11-14T05:14:08.522Z",
- "ops": [
-  {
-   "id": "76688f2ab1460629f7bfdaa4d9488548",
-   "u": "7d762cbf6d2697fd2b95047591fba2b9",
-   "type": "coins",
-   "amount": 1000,
-   "skin": "",
-   "t": 1794633248
-  }
- ],
+ "version": 1794633370,
+ "updatedAt": "2026-11-14T05:16:10.811Z",
+ "ops": [],
  "codes": [],
- "blocked": []
+ "blocked": [
+  "7d762cbf6d2697fd2b95047591fba2b9"
+ ]
 }

@@ -1,26 +1,7 @@
 {
- "version": 1794645391,
- "updatedAt": "2026-11-14T08:36:31.978Z",
- "ops": [
-  {
-   "id": "07662f5951e6bf86e8ab7b56afc78f15",
-   "u": "84cdee0f0bb88a6a3091e60191787f08",
-   "type": "coins",
-   "amount": 100,
-   "skin": "",
-   "t": 1794645376,
-   "by": "Д"
-  },
-  {
-   "id": "6cfc2dbcebb018b813d93932474e36ef",
-   "u": "e78e98a6e6c7f886e7a62973fa768d0b",
-   "type": "coins",
-   "amount": 21,
-   "skin": "",
-   "t": 1794645391,
-   "by": "Д"
-  }
- ],
+ "version": 1794978491,
+ "updatedAt": "2026-11-18T05:08:11.459Z",
+ "ops": [],
  "codes": [],
  "blocked": []
 }

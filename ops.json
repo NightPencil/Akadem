@@ -1,6 +1,6 @@
 {
- "version": 1795160872,
- "updatedAt": "2026-11-20T07:47:52.266Z",
+ "version": 1795160878,
+ "updatedAt": "2026-11-20T07:47:58.367Z",
  "ops": [
   {
    "id": "cafe0f17a879a9dbce92efa92c52576c",
@@ -17,6 +17,15 @@
    "amount": 0,
    "skin": "th_daisy",
    "t": 1795160871,
+   "by": "Д"
+  },
+  {
+   "id": "a2e2ff461aa7bd46777c009e6d867dce",
+   "u": "d1bba3f2e49130367c73fa0194e9e6f3",
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "ic_sunset",
+   "t": 1795160877,
    "by": "Д"
   }
  ],

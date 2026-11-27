@@ -1,14 +1,14 @@
 {
- "version": 1795761157,
- "updatedAt": "2026-11-27T06:32:37.775Z",
+ "version": 1795782953,
+ "updatedAt": "2026-11-27T12:35:53.819Z",
  "ops": [
   {
-   "id": "2efaac69225f686bb6b4814274d78bde",
-   "u": "eb0ea7ad2efbb0ca3e635302514b663f",
-   "type": "coins",
-   "amount": 86,
-   "skin": "",
-   "t": 1795761157
+   "id": "9796b50103968665245295df62b8a83e",
+   "u": "2b28a262b7245b0593c80c8d93646a6a",
+   "type": "skin_give",
+   "amount": 0,
+   "skin": "granny",
+   "t": 1795782953
   }
  ],
  "codes": [],
